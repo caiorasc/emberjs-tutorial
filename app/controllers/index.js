@@ -1,4 +1,7 @@
-import Controller from '@ember/controller';
+import Ember from 'ember';
 
-export default Controller.extend({
+export default Ember.Controller.extend({
+
+  isDisabled: true
+
 });
